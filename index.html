@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light and Dark mode</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="nav-section">
+        <nav class="nav">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#project">PROJECT</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <div class="theme-switch-wrapper">
+            <span>
+                <span id="toggle-icon">
+                    <span class="toggle-text">Light Mode</span>
+                    <i class="fas fa-sun"></i>
+                </span>
+            </span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    
+    <section id="home">
+        <div class="title-group">
+            <h1>Welcome to my Page !</h1>
+            <h2>Let's Try New Food</h2>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About</h1>
+        <div id="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, earum? Aperiam ut laborum sunt accusantium iusto voluptatum perferendis tempora itaque nulla numquam quae deserunt id dolorum asperiores minus, ab aut.</p>
+        </div>
+        
+    </section>
+
+    <section id="project">
+        <h1>Favorite foods</h1>
+        <div class="project-img">
+            <div class="img-container">
+                <h2>HAMBURGER</h2>
+                <img src="hamburger-light.svg" alt="" id="img1">
+            </div>
+            <div class="img-container">
+                <h2>BBQ</h2>
+                <img src="bbq-light.svg" alt="" id="img2">
+            </div>
+            <div class="img-container">
+                <h2>ICE CREAM</h2>
+                <img src="ice-cream-light.svg" alt="" id="img3">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact with me</h1>
+        <div class="sns-icon">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </section>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
